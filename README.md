@@ -94,5 +94,32 @@ This enables future extensions like:
 ## How to Run
 
 ```bash
-npm install
-npm start
+1) npm install
+   npm start
+
+   http://localhost:3000
+
+2)Solar Performance Map
+[───────────────◉────]  ← timeline slider
+Timestamp: 2023-01-01 12:00
+
+🟩 🟩 🟨 🟩 🟥
+🟩 🟨 🟥 🟥 🟥
+🟩 🟩 🟩 🟨 🟥
+Each square = solar panel
+Each color = PR health
+
+This IS the final output.
+
+## Final Output
+
+The system renders an interactive performance map of a solar plant where:
+
+- Each square represents a physical solar asset
+- Color indicates Performance Ratio (PR)
+- Timeline slider allows temporal exploration
+- Underperforming regions become instantly visible
+
+This enables operators to visually detect shading, soiling, or wiring issues without reading numerical tables.
+
+
