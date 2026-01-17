@@ -1,0 +1,22 @@
+                 ┌────────────────────┐
+                 │  Time-Series Data  │
+                 │  (PR, Sensors)     │
+                 └─────────┬──────────┘
+                           │
+                           ▼
+┌────────────────────┐   ┌──────────────────────┐
+│ Spatial Layout Data │──▶│ Data Normalization   │
+│ (Panel Coordinates) │   │ & Asset Mapping     │
+└────────────────────┘   └─────────┬────────────┘
+                                    │
+                                    ▼
+                         ┌──────────────────────┐
+                         │ Performance Engine   │
+                         │ (PR → Color Logic)   │
+                         └─────────┬────────────┘
+                                    │
+                                    ▼
+                         ┌──────────────────────┐
+                         │ Canvas Visualization │
+                         │ (Performance Map)    │
+                         └──────────────────────┘
